@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/Week4and5/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Week6/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Week4and5" />
+        <module name="Week12" />
+        <module name="Week1" />
+        <module name="Week3" />
+        <module name="Week2" />
+        <module name="week9" />
+        <module name="Week6" />
+        <module name="week10" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="IntroducingSpring" target="17" />
+      <module name="week11" target="21" />
+      <module name="Week45" target="1.7" />
+      <module name="week7" target="17" />
+      <module name="Week_7" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="IntroducingSpring" options="-parameters" />
+      <module name="Week12" options="-parameters" />
+      <module name="Week_7" options="-parameters" />
+      <module name="week7" options="-parameters" />
+    </option>
+  </component>
+</project>
